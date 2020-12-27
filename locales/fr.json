@@ -210,5 +210,19 @@
   "About &#124; <span class=\"notranslate\">Idle Space Station</span>": "About &#124; <span class=\"notranslate\">Idle Space Station</span>",
   "Learn more about Idle Space Station": "Learn more about Idle Space Station",
   "": "",
-  "Please verify your email address to continue.": "Please verify your email address to continue."
+  "Please verify your email address to continue.": "Please verify your email address to continue.",
+  "My Account - Profile": "My Account - Profile",
+  "My Account &#124; <span class=\"notranslate\">Idle Space Station</span>": "My Account &#124; <span class=\"notranslate\">Idle Space Station</span>",
+  "Manage your Idle Space Station profile": "Manage your Idle Space Station profile",
+  "Admin": "Admin",
+  "Users": "Users",
+  "Change password": "Change password",
+  "Confirm old password": "Confirm old password",
+  "Set new password": "Set new password",
+  "Confirm new password": "Confirm new password",
+  "Update Profile": "Update Profile",
+  "First name": "First name",
+  "Last name": "Last name",
+  "Reset": "Reset",
+  "Save": "Save"
 }
