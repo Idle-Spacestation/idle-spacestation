@@ -1,7 +1,7 @@
 {
   "name": "lad",
   "description": "Build and maintain a space station. Develop it and explore the universe!",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Nick Baugh <niftylettuce@gmail.com> (https://niftylettuce.com)",
   "ava": {
     "verbose": true,
