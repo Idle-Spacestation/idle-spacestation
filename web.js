@@ -30,15 +30,20 @@ if (!module.parent) {
   (async () => {
     try {
       await web.listen(web.config.port);
-      if (process.send) process.send('ready');
+      if (process.send) {
+        process.send('ready');
+      }
+
       const { port } = web.server.address();
       logger.info(
-        `Lad web server listening on ${port} (LAN: ${ip.address()}:${port})`
+        `Idle Space Station web server listening on ${port} (LAN: ${ip.address()}:${port})`
       );
-      if (config.env === 'development')
+      if (config.env === 'development') {
         logger.info(
           `Please visit ${config.urls.web} in your browser for testing`
         );
+      }
+
       await mongoose.connect();
     } catch (err) {
       logger.error(err);

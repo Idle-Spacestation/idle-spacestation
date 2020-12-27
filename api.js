@@ -28,7 +28,7 @@ if (!module.parent) {
       if (process.send) process.send('ready');
       const { port } = api.server.address();
       logger.info(
-        `Lad API server listening on ${port} (LAN: ${ip.address()}:${port})`
+        `Idle Space Station API server listening on ${port} (LAN: ${ip.address()}:${port})`
       );
       await mongoose.connect();
     } catch (err) {

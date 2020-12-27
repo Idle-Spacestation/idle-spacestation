@@ -18,10 +18,13 @@ if (!module.parent) {
   (async () => {
     try {
       await proxy.listen(proxy.config.port);
-      if (process.send) process.send('ready');
+      if (process.send) {
+        process.send('ready');
+      }
+
       const { port } = proxy.server.address();
       logger.info(
-        `Lad proxy server listening on ${port} (LAN: ${ip.address()}:${port})`
+        `Idle Space Station proxy server listening on ${port} (LAN: ${ip.address()}:${port})`
       );
     } catch (err) {
       logger.error(err);

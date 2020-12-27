@@ -201,5 +201,13 @@
   "A user with the given email address is already registered.  Please try to log in or reset the password if this account belongs to you.": "A user with the given email address is already registered.  Please try to log in or reset the password if this account belongs to you.",
   "Thank you": "Thank you",
   "You have successfully registered.": "You have successfully registered.",
-  "Recovery Key": "Recovery Key"
+  "Recovery Key": "Recovery Key",
+  "Idle Spacestation": "Idle Spacestation",
+  "Create and maintian a spacestation. Develop it and exlpore the universe!": "Create and maintian a spacestation. Develop it and exlpore the universe!",
+  "Create and maintian a space station. Develop it and exlpore the universe!": "Create and maintian a space station. Develop it and exlpore the universe!",
+  "The Best Node.js Framework &#124; <span class=\"notranslate\">Idle Space Station</span>": "The Best Node.js Framework &#124; <span class=\"notranslate\">Idle Space Station</span>",
+  "Idle Space Station": "Idle Space Station",
+  "About &#124; <span class=\"notranslate\">Idle Space Station</span>": "About &#124; <span class=\"notranslate\">Idle Space Station</span>",
+  "Learn more about Idle Space Station": "Learn more about Idle Space Station",
+  "": ""
 }
