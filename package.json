@@ -215,10 +215,7 @@
     }
   },
   "keywords": [
-    "idle-spacestation",
-    "lad",
-    "lad",
-    "lass"
+    "idle-spacestation"
   ],
   "license": "Unlicensed",
   "main": "index.js",

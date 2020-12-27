@@ -35,10 +35,10 @@ nav(class=['/register', '/login', config.verifyRoute].includes(ctx.pathWithoutLo
       //- links that show only if you're logged in
       if user
         li.nav-item.ml-md-1.mt-3.mt-md-0
-          a.btn.btn-lg.d-block.text-left.text-md-center(href=l('/dashboard'), class=ctx.pathWithoutLocale.startsWith('/dashboard') ? 'btn-dark' : 'btn-outline-dark')
+          a.btn.btn-lg.d-block.text-left.text-md-center(href=l('/dashboard'), class=ctx.pathWithoutLocale.startsWith('/dashboard') ? 'btn-light' : 'btn-outline-light')
             = t('Dashboard')
         li.nav-item.dropdown.ml-md-1.mt-1.mt-md-0
-          a#navbar-dropdown-my-account.btn.btn-lg.dropdown-toggle.d-block.text-left.text-md-center(href=l('/my-account'), data-toggle='dropdown', aria-haspopup='true', aria-expanded='false', class=ctx.pathWithoutLocale.startsWith('/my-account') ? 'btn-dark' : 'btn-outline-dark')
+          a#navbar-dropdown-my-account.btn.btn-lg.dropdown-toggle.d-block.text-left.text-md-center(href=l('/my-account'), data-toggle='dropdown', aria-haspopup='true', aria-expanded='false', class=ctx.pathWithoutLocale.startsWith('/my-account') ? 'btn-light' : 'btn-outline-light')
             = t('My Account')
           .dropdown-menu(aria-labelledby='navbar-dropdown-admin')
             a.dropdown-item(class=ctx.pathWithoutLocale === '/my-account' ? 'active' : '', href=l('/my-account'))= t('Profile')
@@ -46,14 +46,14 @@ nav(class=['/register', '/login', config.verifyRoute].includes(ctx.pathWithoutLo
         //- links that show if you're an admin
         if user.group === 'admin'
           li.nav-item.dropdown.ml-md-1.mt-1.mt-md-0
-            a#navbar-dropdown-admin.btn.btn-lg.dropdown-toggle.d-block.text-left.text-md-center(href=l('/admin'), data-toggle='dropdown', aria-haspopup='true', aria-expanded='false', class=ctx.pathWithoutLocale.startsWith('/admin') ? 'btn-dark' : 'btn-outline-dark')
+            a#navbar-dropdown-admin.btn.btn-lg.dropdown-toggle.d-block.text-left.text-md-center(href=l('/admin'), data-toggle='dropdown', aria-haspopup='true', aria-expanded='false', class=ctx.pathWithoutLocale.startsWith('/admin') ? 'btn-light' : 'btn-outline-light')
               = t('Admin')
             .dropdown-menu(aria-labelledby='navbar-dropdown-admin')
               a.dropdown-item(class=ctx.pathWithoutLocale === '/admin' ? 'active' : '', href=l('/admin'))= t('Dashboard')
               a.dropdown-item(class=ctx.pathWithoutLocale.startsWith('/admin/users') ? 'active' : '', href=l('/admin/users'))= t('Users')
       if user
         li.nav-item.ml-md-1.mt-1.mt-md-0
-          a.btn.btn-lg.btn-outline-secondary.d-block.text-left.text-md-center(href=l('/logout'))
+          a.btn.btn-lg.btn-outline-danger.d-block.text-left.text-md-center(href=l('/logout'))
             = t('Log out')
       //- links that show only if you're logged out
       else
